@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website de Fotografía de Ana Quirosa</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Google Fonts  -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- <section class="hero">
+  <div class="hero-content">
+    <h1 class="titulo">Ana Quirosa</h1>
+    <p class="subtitulo">Landscape Photographer</p>
+    <div class="botones">
+        <a href="#contact"><button class="btn boton btn-light" type="button">Prints & Contact</button></a>
+    </div>
+    <div class="text-center mb-4">
+        <a href="#gallery">
+          <i class="bi bi-arrow-down fs-1"></i>
+        </a>
+    </div>
+  </div>
+</section> -->
+
+<section class="hero">
+    <video autoplay muted loop id="video-background">
+        <source src="imagenes/video.mp4" type="video/mp4">
+    </video>
+    <div class="hero-content">
+    <h1 class="titulo">Ana Quirosa</h1>
+    <p class="subtitulo">Landscape Photographer</p>
+    <div class="botones">
+        <a href="#contact"><button class="btn boton btn-outline-light" type="button">Prints & Contact</button></a>
+    </div>
+    <div class="text-center mb-4">
+        <a href="#gallery">
+          <i class="bi bi-arrow-down fs-1"></i>
+        </a>
+    </div>
+  </div>
+
+</section>
+
+<!-- GALLERY -->
+
+<section class="gallery" id="gallery">
+
+  <div class="image-grid">
+    <!-- Fila 1 -->
+        <img src="imagenes/ana-coche.jpg" alt="Ana" loading="lazy" class="Foto1">
+
+    <div class="slider">
+        <img src="imagenes/alhambra.jpg" alt="Alhambra" loading="lazy" class="Foto2">
+        <img src="imagenes/cuadros/alhambra.jpg" alt="Cuadro Alhambra" loading="lazy" class="Foto2">
+    </div>
+
+    <div class="slider">
+        <img src="imagenes/granada-calle.jpg" alt="Calle Granada" loading="lazy" class="Foto3">
+        <img src="imagenes/cuadros/granada-calle.jpg" alt="cuadro calle granada" loading="lazy" class="Foto3">
+    </div>
+
+    <div class="slider">
+        <img src="imagenes/novi-sad.jpg" alt="novisad" loading="lazy" class="Foto3">
+        <img src="imagenes/cuadros/novi-sad.jpg" alt="cuadro novisad" loading="lazy" class="Foto3">
+    </div>
+
+    <!-- Fila 2 - cuadros -->
+
+    <div class="slider">
+        <div class="scroll-indicator-2"><i class="bi bi-arrow-right"></i></div>
+        <img src="imagenes/cuadros/barcelona.jpg" alt="Calle Granada" loading="lazy" class="Foto3">
+        <img src="imagenes/barcelona.jpg" alt="Calle Granada" loading="lazy" class="Foto3">
+
+    </div>
+
+    <div class="slider">
+        <div class="scroll-indicator-2"><i class="bi bi-arrow-right"></i></div>
+        <img src="imagenes/cuadros/madrid.jpg" alt="cuadro madrid" loading="lazy" class="Foto3">
+        <img src="imagenes/madrid.jpg" alt="madrid" loading="lazy" class="Foto3">
+    </div>
+
+    <div class="slider">
+        <div class="scroll-indicator-2"><i class="bi bi-arrow-right"></i></div>
+        <img src="imagenes/cuadros/madrid-templo.jpg" alt="cuadro templo madrid" loading="lazy" class="Foto3">
+        <img src="imagenes/madrid-templo.jpg" alt="madrid templo" loading="lazy" class="Foto3">
+    </div>
+    
+    <div class="slider">
+        <div class="scroll-indicator-2"><i class="bi bi-arrow-right"></i></div>
+        <img src="imagenes/cuadros/barcelona-2.jpg" alt="cuadro barcelona" loading="lazy" class="Foto3">
+        <img src="imagenes/barcelona-2.jpg" alt="barcelona" loading="lazy" class="Foto3">
+    </div>   
+
+
+    <!-- Fila 3 -->
+    <img src="imagenes/ana-playa.jpg" alt="Ana playa" loading="lazy">
+
+    <div class="slider">
+        <img src="imagenes/sunrise-bird.jpg" alt="sunrise bird" loading="lazy" class="Foto3">
+        <img src="imagenes/cuadros/sunrise-bird.jpg" alt="cuadro sunrise bird" loading="lazy" class="Foto3">
+    </div>
+
+    <div class="slider">
+        <img src="imagenes/sunset-inferno.jpg" alt="sunset inferno" loading="lazy" class="Foto3">
+        <img src="imagenes/cuadros/sunset-inferno.jpg" alt="cuadro sundet inferno" loading="lazy" class="Foto3">
+    </div>
+    
+    <img src="imagenes/mili-playa.jpg" alt="Mili playa" loading="lazy">
+
+    <!-- Fila 4 - cuadros -->
+
+    <div class="slider">
+        <div class="scroll-indicator-2"><i class="bi bi-arrow-right"></i></div>
+        <img src="imagenes/cuadros/mountain.jpg" alt="cuadro mountain" loading="lazy">
+        <img src="imagenes/mountain.jpg" alt="mountain" loading="lazy">
+    </div>
+
+    <div class="slider">
+        <div class="scroll-indicator-2"><i class="bi bi-arrow-right"></i></div>
+        <img src="imagenes/cuadros/mountain-mili.jpg" alt="cuadro mili mountain" loading="lazy">
+        <img src="imagenes/mountain-mili.jpg" alt="mili mountain" loading="lazy">
+    </div>
+    
+    <div class="slider">
+        <div class="scroll-indicator-2"><i class="bi bi-arrow-right"></i></div>
+        <img src="imagenes/cuadros/mountain-mili-2.jpg" alt="cuadro mili mountain" loading="lazy">
+        <img src="imagenes/mountain-mili-2.jpg" alt="mili mountain" loading="lazy">
+    </div>
+
+    <div class="slider">
+        <div class="scroll-indicator-2"><i class="bi bi-arrow-right"></i></div>
+        <img src="imagenes/cuadros/mountain-2.jpg" alt="cuadro mountain" loading="lazy">
+        <img src="imagenes/mountain-2.jpg" alt="mountain" loading="lazy">
+    </div>
+
+    <!-- Fila 5 -->
+
+    <div class="slider">
+        <img src="imagenes/sunrise.jpg" alt="sunrise" loading="lazy">
+        <img src="imagenes/cuadros/sunrise.jpg" alt="cuadro sunrise" loading="lazy">
+    </div>
+    
+    <div class="slider">
+        <img src="imagenes/pink-sunrise.jpg" alt="pink sunrise" loading="lazy">
+        <img src="imagenes/cuadros/pink-sunrise.jpg" alt="cuadro pink sunrise" loading="lazy">
+    </div>
+    
+    <div class="slider">
+        <img src="imagenes/pink-sunrise-2.jpg" alt="pink sunrise" loading="lazy">
+        <img src="imagenes/cuadros/pink-sunrise-2.jpg" alt="cuadro pink sunrise" loading="lazy">
+    </div>
+    
+    <div class="slider">
+        <img src="imagenes/orange-sunrise.jpg" alt="orange sunrise" loading="lazy">
+        <img src="imagenes/cuadros/orange-sunrise.jpg" alt="cuadro orange sunrise" loading="lazy">
+    </div>
+    
+
+    
+  </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="contact-section">
+        <h2 class="titulo-contacto">Prints & Contact</h2>
+        <p class="texto-contacto">Interested in bringing my photography into your space or exploring a collaboration? <b>I'd love to connect!</b><br> <br> For inquiries about purchasing prints or discussing potential partnerships, feel free to send an email to </p>
+        <h3>anamquirosa@gmail.com</h3>
+        <p>I'm excited to explore creative opportunities together!</p>
+    </div>
+</section>
+
+<section class="social-media">
+ <div class="iconos">
+    <a href="https://www.instagram.com/anaquirosa" target="_blank"><i class="bi bi-instagram"></i></a>
+ </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha384-########" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>
