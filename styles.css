@@ -291,4 +291,8 @@ header {
             font-weight: 200;
         }
 
+        .image-grid img {
+            max-width: 100%;
+            height: auto;
+          }
   }
